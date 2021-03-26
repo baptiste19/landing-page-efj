@@ -1,0 +1,144 @@
+body{
+	margin: 0px;
+	background-color: #202225;
+}
+
+
+.btn-blue{
+		text-decoration: none;
+		color: #202225;
+		font-family: 'Helvetica Neue', sans-serif;
+		font-size: 34px;
+		background-color: transparent;
+		padding: 8px;
+		border-radius : 7px;
+		display: block;
+		margin: 160px 160px;
+		width: 13%;
+		border: 2px solid #ffffff;
+		transition: 1s;
+	}
+
+	.btn-blue:hover {
+		background-color: white;
+		color: #575F7D;
+		transition: 1s;
+	}
+
+.title h2{
+	font-size: 15px;
+	text-align: left;
+	color: white;
+	margin-left: 16px;
+}
+.title {
+	display: flex;
+}
+
+#footflix {
+	color: #f7c31c;
+	font-size: 20px;
+	margin: 8px;
+}
+
+.home {
+	background-image: url(https://cdn2.shopify.com/s/files/1/0064/8894/8791/t/2/assets/pourquoi-le-maillot-de-coupe-du-monde-1970-de-pele-marque-une-epoque-1_4039.jpg);
+	height: 1000px;
+	width: 2000px;
+	background-size: cover;
+	background-position: left;
+	padding: 10px;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 50px;
+	color: #202225
+}
+
+.série {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 16px;
+}
+
+.film {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 16px;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 30px;
+	margin-left: 16px;
+	margin-top: 25px;
+}
+
+.card h3{
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	color: white;
+}
+
+p {
+	font-size: 14px;
+	text-align: left;
+	color: white;
+}
+
+img{
+	height: 125px;
+	width: 200px;
+	border-radius: 7px;
+}
+
+.footer {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 16px;
+}
+
+.un {
+	background-image: url(https://img.fifa.com/image/upload/t_l1/lzcjramiebwogsfkxm7o.jpg);
+	height: 400px;
+	width: 600px;
+	background-size: cover;
+	background-position: left;
+	padding: 10px;
+	border-radius: 14px;
+	margin-left: 16px;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 15px;
+	color: white;
+	text-align: ;
+}
+
+.deux {
+	background-image: url(https://www.lesoir.be/sites/default/files/dpistyles_v2/ena_16_9_extra_big/2018/01/17/node_134561/12639755/public/2018/01/17/B9714443705Z.1_20180117144311_000+G0EAGUO8V.1-0.jpg?itok=WqcSCeKt1545357361);
+	height: 400px;
+	width: 600px;
+	background-size: cover;
+	background-position: left;
+	padding: 10px;
+	border-radius: 14px;
+	margin: 60px 400px;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 15px;
+	color: white;
+}
+
+.trois {
+	background-image: url(https://assets-fr.imgfoot.com/haaland-6051cbde27015.jpg);
+	height: 400px;
+	width: 600px;
+	background-size: cover;
+	background-position: left;
+	padding: 10px;
+	border-radius: 14px;
+	margin: 60px 800px;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 15px;
+	color: white;
+}
+
+
